@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preload" href="./images/image-1.jpg" as="image">
+    <link rel="preload" href="./images/image-2.jpg" as="image">
+    <link rel="preload" href="./images/image-3.jpg" as="image">
+</head>
+<body>
+    <div class="gallery-wrap">
+        <div class="gallery">
+            <section>
+                <img src="./images/image-1.jpg" alt="Image of a person" loading="lazy"> 
+            </section>
+            <section>
+                <img src="./images/image-2.jpg" alt="Image of a person" loading="lazy">
+            </section>
+            <section>
+                <img src="./images/image-3.jpg" alt="Image of a person" loading="lazy">
+            </section>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
